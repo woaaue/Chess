@@ -1,9 +1,43 @@
+using UnityEngine;
+
 public sealed class Pawn : Figure
 {
     public override FigureType Type => FigureType.Pawn;
+    private bool _isFirstMove = true;
 
-    public override void Move()
+    public Pawn(Cell startCell, Color color)
     {
+        CurrentCell = startCell;
+        Color = color;
+    }
 
+    public override bool IsValidMove(Cell targetCell, ChessBoard chessBoard)
+    {
+        if (targetCell.IsEmpty)
+        {
+            if (_isFirstMove && targetCell.X == CurrentCell.X && targetCell.Y == CurrentCell.Y + 2)
+            {
+                _isFirstMove = false;
+                return true;
+            }
+            else if (targetCell.X == CurrentCell.X && targetCell.Y == CurrentCell.Y + 1)
+            {
+                return true;
+            }
+        }
+        else
+        {
+            if (chessBoard.GetFigure(targetCell).Color != Color && Mathf.Abs(targetCell.X - CurrentCell.X) == 1 && targetCell.Y == CurrentCell.Y + 1)
+            {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    public override void Move(Cell targetCell, ChessBoard chessBoard)
+    {
+        base.Move(targetCell, chessBoard);
     }
 }
