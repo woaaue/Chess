@@ -1,19 +1,21 @@
 public class ChessBoard
 {
+    private int _boardSize;
     private Cell[,] _cells;
 
     public ChessBoard()
     {
+        _boardSize = 8;
         InitializeBoard();
     }
 
     private void InitializeBoard()
     {
-        _cells = new Cell[8, 8];
+        _cells = new Cell[_boardSize, _boardSize];
 
-        for (int x = 0; x < 8; x++)
+        for (int x = 0; x < _boardSize; x++)
         {
-            for (int y = 0; y < 8; y++)
+            for (int y = 0; y < _boardSize; y++)
             {
                 _cells[x, y] = new Cell(x, y);
             }
@@ -22,7 +24,7 @@ public class ChessBoard
 
     public Cell GetCell(int x, int y)
     {
-        if (x >= 0 && x < 8 && y >= 0 && y < 8)
+        if (BoardUtils.IsValidPosition(x, y, _boardSize))
         {
             return _cells[x, y];
         }
@@ -31,4 +33,20 @@ public class ChessBoard
             return null;
         }
     }
+
+    public void ClearCell(Cell cell)
+    {
+        cell.Clear();
+    }
+
+    public void PlaceFigure(Cell cell, Figure figure)
+    {
+        cell.SetFigure(figure);
+    }
+
+    public Figure GetFigure(Cell cell)
+    {
+        return cell.Figure;
+    }
+
 }
