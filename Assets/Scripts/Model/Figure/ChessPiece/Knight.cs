@@ -4,6 +4,12 @@ public sealed class Knight : Figure
 {
     public override FigureType Type => FigureType.Knight;
 
+    public Knight(Cell startCell, Color color)
+    {
+        CurrentCell = startCell;
+        Color = color;
+    }
+
     public override bool IsValidMove(Cell targetCell, ChessBoard chessBoard)
     {
         int deltaX = targetCell.X - CurrentCell.X;
