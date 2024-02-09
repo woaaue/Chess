@@ -7,7 +7,7 @@ public sealed class King : Figure
     public King(Cell startCell, Color color)
     {
         CurrentCell = startCell;
-        Color = Color;
+        Color = color;
     }
 
     public override bool IsValidMove(Cell targetCell, ChessBoard chessBoard)
