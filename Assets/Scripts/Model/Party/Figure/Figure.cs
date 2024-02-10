@@ -9,14 +9,6 @@ public abstract class Figure
 
     public virtual void Move(Cell targetCell, ChessBoard chessBoard)
     {
-        if (!IsValidMove(targetCell, chessBoard))
-        {
-#if UNITY_EDITOR
-            Debug.Log("Move direction isn't valid");
-#endif
-            return;
-        }
-
         targetCell.SetFigure(this);
         CurrentCell.Clear();
         CurrentCell = targetCell;

@@ -12,6 +12,9 @@ public sealed class King : Figure
 
     public override bool IsValidMove(Cell targetCell, ChessBoard chessBoard)
     {
+        if (CurrentCell == targetCell)
+            return false;
+
         int deltaX = targetCell.X - CurrentCell.X;
         int deltaY = targetCell.Y - CurrentCell.Y;
         int directionX = deltaX > 0 ? 1 : -1;

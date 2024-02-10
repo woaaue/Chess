@@ -12,6 +12,9 @@ public sealed class Bishop : Figure
 
     public override bool IsValidMove(Cell targetCell, ChessBoard chessBoard)
     {
+        if (CurrentCell == targetCell)
+            return false;
+
         int deltaX = targetCell.X - CurrentCell.X;
         int deltaY = targetCell.Y - CurrentCell.Y;
 

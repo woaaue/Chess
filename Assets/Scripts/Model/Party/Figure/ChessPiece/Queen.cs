@@ -12,15 +12,11 @@ public sealed class Queen : Figure
 
     public override bool IsValidMove(Cell targetCell, ChessBoard chessBoard)
     {
+        if (CurrentCell == targetCell)
+            return false;
+
         int deltaX = targetCell.X - CurrentCell.X;
         int deltaY = targetCell.Y - CurrentCell.Y;
-
-        //if (Mathf.Abs(deltaX) != Mathf.Abs(deltaY) || targetCell.X != CurrentCell.X && deltaY == 0 
-        //    || targetCell.Y != CurrentCell.Y && deltaX == 0 || deltaX == 0 && deltaY == 0)
-        //{
-        //    return false;
-        //} TO DO: условие под вопросом нужности.
-
         int directionX = deltaX > 0 ? 1 : -1;
         int directionY = deltaY > 0 ? 1 : -1;
 
@@ -66,7 +62,7 @@ public sealed class Queen : Figure
 
         if (targetCell.Y == CurrentCell.Y && deltaX != 0)
         {
-            for (int i = 0; i < Mathf.Abs(deltaX); i++)
+            for (int i = 1; i < Mathf.Abs(deltaX); i++)
             {
                 Cell nextCell = chessBoard.GetCell(CurrentCell.X + i * directionX, CurrentCell.Y);
 
