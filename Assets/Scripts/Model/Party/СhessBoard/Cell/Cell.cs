@@ -1,3 +1,5 @@
+using System;
+
 public sealed class Cell 
 {
     public int X { get; }

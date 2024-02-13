@@ -24,7 +24,7 @@ public sealed class Knight : Figure
         {
             if (CurrentCell.Y + Mathf.Abs(deltaY) * directionY == targetCell.Y && CurrentCell.X + Mathf.Abs(deltaX) * directionX == targetCell.X)
             {
-                if (chessBoard.GetFigure(targetCell).Color != Color)
+                if (targetCell.IsEmpty || chessBoard.GetFigure(targetCell).Color != Color)
                 {
                     return true;
                 }
@@ -42,7 +42,7 @@ public sealed class Knight : Figure
         {
             if (CurrentCell.X + Mathf.Abs(deltaX) * directionX == targetCell.X && CurrentCell.Y + Mathf.Abs(deltaY) * directionY == targetCell.Y)
             {
-                if (chessBoard.GetFigure(targetCell).Color != Color)
+                if (targetCell.IsEmpty || chessBoard.GetFigure(targetCell).Color != Color)
                 {
                     return true;
                 }

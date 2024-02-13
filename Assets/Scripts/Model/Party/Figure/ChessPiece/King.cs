@@ -22,7 +22,7 @@ public sealed class King : Figure
 
         if (targetCell.X == CurrentCell.X && deltaY != 0 && deltaY < 2)
         {
-            if (chessBoard.GetFigure(targetCell).Color != Color && Mathf.Abs(targetCell.Y - CurrentCell.Y) == 1 && targetCell.X == CurrentCell.X)
+            if ((targetCell.IsEmpty || chessBoard.GetFigure(targetCell).Color != Color) && Mathf.Abs(targetCell.Y - CurrentCell.Y) == 1 && targetCell.X == CurrentCell.X)
             {
                 return true;
             }
@@ -37,7 +37,7 @@ public sealed class King : Figure
 
         if(targetCell.Y == CurrentCell.Y && deltaX != 0 && deltaX < 2)
         {
-            if (chessBoard.GetFigure(targetCell).Color != Color && Mathf.Abs(targetCell.X - CurrentCell.X) == 1 && targetCell.Y == CurrentCell.Y)
+            if ((targetCell.IsEmpty || chessBoard.GetFigure(targetCell).Color != Color) && Mathf.Abs(targetCell.X - CurrentCell.X) == 1 && targetCell.Y == CurrentCell.Y)
             {
                 return true;
             }
@@ -56,7 +56,7 @@ public sealed class King : Figure
             {
                 Cell nextCell = chessBoard.GetCell(CurrentCell.X + i * directionX, CurrentCell.Y + i * directionY);
 
-                if (targetCell.X == nextCell.X && targetCell.Y == nextCell.Y && chessBoard.GetFigure(targetCell).Color != Color)
+                if ((targetCell.IsEmpty || chessBoard.GetFigure(targetCell).Color != Color) && targetCell.X == nextCell.X && targetCell.Y == nextCell.Y)
                 {
                     return true;
                 }

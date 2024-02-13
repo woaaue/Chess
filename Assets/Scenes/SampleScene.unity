@@ -221,6 +221,7 @@ GameObject:
   m_Component:
   - component: {fileID: 55580051}
   - component: {fileID: 55580052}
+  - component: {fileID: 55580053}
   m_Layer: 0
   m_Name: WhiteCell (18)
   m_TagString: Untagged
@@ -295,6 +296,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &55580053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 55580050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &69807906
 GameObject:
   m_ObjectHideFlags: 0
@@ -305,6 +318,7 @@ GameObject:
   m_Component:
   - component: {fileID: 69807907}
   - component: {fileID: 69807908}
+  - component: {fileID: 69807909}
   m_Layer: 0
   m_Name: WhiteCell (23)
   m_TagString: Untagged
@@ -379,6 +393,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &69807909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 69807906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &74219545
 GameObject:
   m_ObjectHideFlags: 0
@@ -389,6 +415,7 @@ GameObject:
   m_Component:
   - component: {fileID: 74219546}
   - component: {fileID: 74219547}
+  - component: {fileID: 74219548}
   m_Layer: 0
   m_Name: WhiteCell (3)
   m_TagString: Untagged
@@ -463,6 +490,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &74219548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 74219545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &78344850
 GameObject:
   m_ObjectHideFlags: 0
@@ -473,6 +512,7 @@ GameObject:
   m_Component:
   - component: {fileID: 78344851}
   - component: {fileID: 78344852}
+  - component: {fileID: 78344853}
   m_Layer: 0
   m_Name: WhiteCell (28)
   m_TagString: Untagged
@@ -547,6 +587,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &78344853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 78344850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &82705930
 GameObject:
   m_ObjectHideFlags: 0
@@ -557,6 +609,7 @@ GameObject:
   m_Component:
   - component: {fileID: 82705932}
   - component: {fileID: 82705931}
+  - component: {fileID: 82705933}
   m_Layer: 0
   m_Name: PawnWhite (2)
   m_TagString: Untagged
@@ -631,6 +684,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &82705933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 82705930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c23385e3dcd6b64cbf8b8f527e2a031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &106219531
 GameObject:
   m_ObjectHideFlags: 0
@@ -641,6 +706,7 @@ GameObject:
   m_Component:
   - component: {fileID: 106219533}
   - component: {fileID: 106219532}
+  - component: {fileID: 106219534}
   m_Layer: 0
   m_Name: KnightBlack
   m_TagString: Untagged
@@ -715,6 +781,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &106219534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 106219531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c23385e3dcd6b64cbf8b8f527e2a031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &129428525
 GameObject:
   m_ObjectHideFlags: 0
@@ -725,6 +803,7 @@ GameObject:
   m_Component:
   - component: {fileID: 129428526}
   - component: {fileID: 129428527}
+  - component: {fileID: 129428528}
   m_Layer: 0
   m_Name: BlackCell (2)
   m_TagString: Untagged
@@ -799,6 +878,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &129428528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 129428525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &171205717
 GameObject:
   m_ObjectHideFlags: 0
@@ -809,6 +900,7 @@ GameObject:
   m_Component:
   - component: {fileID: 171205718}
   - component: {fileID: 171205719}
+  - component: {fileID: 171205720}
   m_Layer: 0
   m_Name: BlackCell (3)
   m_TagString: Untagged
@@ -883,6 +975,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &171205720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 171205717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &202235904
 GameObject:
   m_ObjectHideFlags: 0
@@ -964,6 +1068,7 @@ GameObject:
   m_Component:
   - component: {fileID: 241137214}
   - component: {fileID: 241137215}
+  - component: {fileID: 241137216}
   m_Layer: 0
   m_Name: BlackCell (26)
   m_TagString: Untagged
@@ -1038,6 +1143,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &241137216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 241137213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &303398363
 GameObject:
   m_ObjectHideFlags: 0
@@ -1048,7 +1165,6 @@ GameObject:
   m_Component:
   - component: {fileID: 303398364}
   - component: {fileID: 303398365}
-  - component: {fileID: 303398366}
   m_Layer: 0
   m_Name: ChessBoard
   m_TagString: Untagged
@@ -1147,18 +1263,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4da82b33140e7246bb126578183ea44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &303398366
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 303398363}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &335175286
 GameObject:
   m_ObjectHideFlags: 0
@@ -1169,6 +1273,7 @@ GameObject:
   m_Component:
   - component: {fileID: 335175288}
   - component: {fileID: 335175287}
+  - component: {fileID: 335175289}
   m_Layer: 0
   m_Name: BishopWhite
   m_TagString: Untagged
@@ -1214,8 +1319,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 355121427
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: a26566b656c3cdc40884da25b9c48d33, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1243,6 +1348,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &335175289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 335175286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c23385e3dcd6b64cbf8b8f527e2a031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &345044052
 GameObject:
   m_ObjectHideFlags: 0
@@ -1253,6 +1370,7 @@ GameObject:
   m_Component:
   - component: {fileID: 345044053}
   - component: {fileID: 345044054}
+  - component: {fileID: 345044055}
   m_Layer: 0
   m_Name: WhiteCell (1)
   m_TagString: Untagged
@@ -1327,6 +1445,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &345044055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 345044052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &352276157
 GameObject:
   m_ObjectHideFlags: 0
@@ -1337,6 +1467,7 @@ GameObject:
   m_Component:
   - component: {fileID: 352276159}
   - component: {fileID: 352276158}
+  - component: {fileID: 352276160}
   m_Layer: 0
   m_Name: PawnWhite (4)
   m_TagString: Untagged
@@ -1411,6 +1542,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &352276160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 352276157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c23385e3dcd6b64cbf8b8f527e2a031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &393127897
 GameObject:
   m_ObjectHideFlags: 0
@@ -1421,6 +1564,7 @@ GameObject:
   m_Component:
   - component: {fileID: 393127898}
   - component: {fileID: 393127899}
+  - component: {fileID: 393127900}
   m_Layer: 0
   m_Name: BlackCell (24)
   m_TagString: Untagged
@@ -1495,6 +1639,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &393127900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 393127897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &451957278
 GameObject:
   m_ObjectHideFlags: 0
@@ -1505,6 +1661,7 @@ GameObject:
   m_Component:
   - component: {fileID: 451957280}
   - component: {fileID: 451957279}
+  - component: {fileID: 451957281}
   m_Layer: 0
   m_Name: QueenWhite
   m_TagString: Untagged
@@ -1579,6 +1736,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &451957281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 451957278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c23385e3dcd6b64cbf8b8f527e2a031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &466666846
 GameObject:
   m_ObjectHideFlags: 0
@@ -1589,6 +1758,7 @@ GameObject:
   m_Component:
   - component: {fileID: 466666847}
   - component: {fileID: 466666848}
+  - component: {fileID: 466666849}
   m_Layer: 0
   m_Name: BlackCell (7)
   m_TagString: Untagged
@@ -1663,6 +1833,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &466666849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 466666846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &498909273
 GameObject:
   m_ObjectHideFlags: 0
@@ -1673,6 +1855,7 @@ GameObject:
   m_Component:
   - component: {fileID: 498909274}
   - component: {fileID: 498909275}
+  - component: {fileID: 498909276}
   m_Layer: 0
   m_Name: WhiteCell (11)
   m_TagString: Untagged
@@ -1747,6 +1930,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &498909276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 498909273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1876,6 +2071,7 @@ GameObject:
   m_Component:
   - component: {fileID: 522137479}
   - component: {fileID: 522137480}
+  - component: {fileID: 522137481}
   m_Layer: 0
   m_Name: WhiteCell (31)
   m_TagString: Untagged
@@ -1950,6 +2146,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &522137481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 522137478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &538195453
 GameObject:
   m_ObjectHideFlags: 0
@@ -1960,6 +2168,7 @@ GameObject:
   m_Component:
   - component: {fileID: 538195454}
   - component: {fileID: 538195455}
+  - component: {fileID: 538195456}
   m_Layer: 0
   m_Name: BlackCell (21)
   m_TagString: Untagged
@@ -2034,6 +2243,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &538195456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 538195453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &589896780
 GameObject:
   m_ObjectHideFlags: 0
@@ -2044,6 +2265,7 @@ GameObject:
   m_Component:
   - component: {fileID: 589896781}
   - component: {fileID: 589896782}
+  - component: {fileID: 589896783}
   m_Layer: 0
   m_Name: WhiteCell (15)
   m_TagString: Untagged
@@ -2118,6 +2340,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &589896783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 589896780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &600913586
 GameObject:
   m_ObjectHideFlags: 0
@@ -2128,6 +2362,7 @@ GameObject:
   m_Component:
   - component: {fileID: 600913587}
   - component: {fileID: 600913588}
+  - component: {fileID: 600913589}
   m_Layer: 0
   m_Name: WhiteCell (22)
   m_TagString: Untagged
@@ -2202,6 +2437,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &600913589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 600913586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &603575885
 GameObject:
   m_ObjectHideFlags: 0
@@ -2212,6 +2459,7 @@ GameObject:
   m_Component:
   - component: {fileID: 603575886}
   - component: {fileID: 603575887}
+  - component: {fileID: 603575888}
   m_Layer: 0
   m_Name: BlackCell (11)
   m_TagString: Untagged
@@ -2286,6 +2534,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &603575888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 603575885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &611820911
 GameObject:
   m_ObjectHideFlags: 0
@@ -2296,6 +2556,7 @@ GameObject:
   m_Component:
   - component: {fileID: 611820912}
   - component: {fileID: 611820913}
+  - component: {fileID: 611820914}
   m_Layer: 0
   m_Name: BlackCell
   m_TagString: Untagged
@@ -2370,6 +2631,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &611820914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 611820911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &632518914
 GameObject:
   m_ObjectHideFlags: 0
@@ -2380,6 +2653,7 @@ GameObject:
   m_Component:
   - component: {fileID: 632518915}
   - component: {fileID: 632518916}
+  - component: {fileID: 632518917}
   m_Layer: 0
   m_Name: WhiteCell (13)
   m_TagString: Untagged
@@ -2454,6 +2728,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &632518917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 632518914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &642910361
 GameObject:
   m_ObjectHideFlags: 0
@@ -2464,6 +2750,7 @@ GameObject:
   m_Component:
   - component: {fileID: 642910362}
   - component: {fileID: 642910363}
+  - component: {fileID: 642910364}
   m_Layer: 0
   m_Name: WhiteCell (7)
   m_TagString: Untagged
@@ -2538,6 +2825,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &642910364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 642910361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &659742666
 GameObject:
   m_ObjectHideFlags: 0
@@ -2548,6 +2847,7 @@ GameObject:
   m_Component:
   - component: {fileID: 659742667}
   - component: {fileID: 659742668}
+  - component: {fileID: 659742669}
   m_Layer: 0
   m_Name: WhiteCell (10)
   m_TagString: Untagged
@@ -2622,6 +2922,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &659742669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 659742666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &678700523
 GameObject:
   m_ObjectHideFlags: 0
@@ -2632,6 +2944,7 @@ GameObject:
   m_Component:
   - component: {fileID: 678700525}
   - component: {fileID: 678700524}
+  - component: {fileID: 678700526}
   m_Layer: 0
   m_Name: RookWhite
   m_TagString: Untagged
@@ -2706,6 +3019,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &678700526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678700523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c23385e3dcd6b64cbf8b8f527e2a031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &703944076
 GameObject:
   m_ObjectHideFlags: 0
@@ -2716,6 +3041,7 @@ GameObject:
   m_Component:
   - component: {fileID: 703944077}
   - component: {fileID: 703944078}
+  - component: {fileID: 703944079}
   m_Layer: 0
   m_Name: BlackCell (4)
   m_TagString: Untagged
@@ -2790,6 +3116,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &703944079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703944076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &747771320
 GameObject:
   m_ObjectHideFlags: 0
@@ -2800,6 +3138,7 @@ GameObject:
   m_Component:
   - component: {fileID: 747771322}
   - component: {fileID: 747771321}
+  - component: {fileID: 747771323}
   m_Layer: 0
   m_Name: KnightBlack (1)
   m_TagString: Untagged
@@ -2874,6 +3213,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &747771323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 747771320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c23385e3dcd6b64cbf8b8f527e2a031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &768799475
 GameObject:
   m_ObjectHideFlags: 0
@@ -2884,6 +3235,7 @@ GameObject:
   m_Component:
   - component: {fileID: 768799477}
   - component: {fileID: 768799476}
+  - component: {fileID: 768799478}
   m_Layer: 0
   m_Name: PawnBlack (6)
   m_TagString: Untagged
@@ -2958,6 +3310,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &768799478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 768799475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c23385e3dcd6b64cbf8b8f527e2a031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &785938004
 GameObject:
   m_ObjectHideFlags: 0
@@ -2968,6 +3332,7 @@ GameObject:
   m_Component:
   - component: {fileID: 785938006}
   - component: {fileID: 785938005}
+  - component: {fileID: 785938007}
   m_Layer: 0
   m_Name: PawnBlack (5)
   m_TagString: Untagged
@@ -3042,6 +3407,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &785938007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 785938004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c23385e3dcd6b64cbf8b8f527e2a031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &786270577
 GameObject:
   m_ObjectHideFlags: 0
@@ -3052,6 +3429,7 @@ GameObject:
   m_Component:
   - component: {fileID: 786270579}
   - component: {fileID: 786270578}
+  - component: {fileID: 786270580}
   m_Layer: 0
   m_Name: PawnWhite (6)
   m_TagString: Untagged
@@ -3126,6 +3504,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &786270580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 786270577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c23385e3dcd6b64cbf8b8f527e2a031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &791263294
 GameObject:
   m_ObjectHideFlags: 0
@@ -3136,6 +3526,7 @@ GameObject:
   m_Component:
   - component: {fileID: 791263296}
   - component: {fileID: 791263295}
+  - component: {fileID: 791263297}
   m_Layer: 0
   m_Name: KnightWhite (1)
   m_TagString: Untagged
@@ -3210,6 +3601,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &791263297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 791263294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c23385e3dcd6b64cbf8b8f527e2a031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &804689783
 GameObject:
   m_ObjectHideFlags: 0
@@ -3220,6 +3623,7 @@ GameObject:
   m_Component:
   - component: {fileID: 804689784}
   - component: {fileID: 804689785}
+  - component: {fileID: 804689786}
   m_Layer: 0
   m_Name: BlackCell (29)
   m_TagString: Untagged
@@ -3294,6 +3698,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &804689786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 804689783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &833716700
 GameObject:
   m_ObjectHideFlags: 0
@@ -3304,6 +3720,7 @@ GameObject:
   m_Component:
   - component: {fileID: 833716701}
   - component: {fileID: 833716702}
+  - component: {fileID: 833716703}
   m_Layer: 0
   m_Name: WhiteCell (9)
   m_TagString: Untagged
@@ -3378,6 +3795,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &833716703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 833716700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &883805276
 GameObject:
   m_ObjectHideFlags: 0
@@ -3388,6 +3817,7 @@ GameObject:
   m_Component:
   - component: {fileID: 883805277}
   - component: {fileID: 883805278}
+  - component: {fileID: 883805279}
   m_Layer: 0
   m_Name: WhiteCell (4)
   m_TagString: Untagged
@@ -3462,6 +3892,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &883805279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 883805276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &905907879
 GameObject:
   m_ObjectHideFlags: 0
@@ -3472,6 +3914,7 @@ GameObject:
   m_Component:
   - component: {fileID: 905907881}
   - component: {fileID: 905907880}
+  - component: {fileID: 905907882}
   m_Layer: 0
   m_Name: PawnWhite
   m_TagString: Untagged
@@ -3546,6 +3989,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &905907882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 905907879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c23385e3dcd6b64cbf8b8f527e2a031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &933050760
 GameObject:
   m_ObjectHideFlags: 0
@@ -3556,6 +4011,7 @@ GameObject:
   m_Component:
   - component: {fileID: 933050761}
   - component: {fileID: 933050762}
+  - component: {fileID: 933050763}
   m_Layer: 0
   m_Name: WhiteCell (26)
   m_TagString: Untagged
@@ -3630,6 +4086,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &933050763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 933050760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &936360578
 GameObject:
   m_ObjectHideFlags: 0
@@ -3640,6 +4108,7 @@ GameObject:
   m_Component:
   - component: {fileID: 936360580}
   - component: {fileID: 936360579}
+  - component: {fileID: 936360581}
   m_Layer: 0
   m_Name: PawnBlack (4)
   m_TagString: Untagged
@@ -3714,6 +4183,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &936360581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 936360578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c23385e3dcd6b64cbf8b8f527e2a031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &939397355
 GameObject:
   m_ObjectHideFlags: 0
@@ -3724,6 +4205,7 @@ GameObject:
   m_Component:
   - component: {fileID: 939397357}
   - component: {fileID: 939397356}
+  - component: {fileID: 939397358}
   m_Layer: 0
   m_Name: BishopBlack
   m_TagString: Untagged
@@ -3798,6 +4280,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &939397358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 939397355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c23385e3dcd6b64cbf8b8f527e2a031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &943622406
 GameObject:
   m_ObjectHideFlags: 0
@@ -3808,6 +4302,7 @@ GameObject:
   m_Component:
   - component: {fileID: 943622407}
   - component: {fileID: 943622408}
+  - component: {fileID: 943622409}
   m_Layer: 0
   m_Name: BlackCell (17)
   m_TagString: Untagged
@@ -3882,6 +4377,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &943622409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 943622406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &970776230
 GameObject:
   m_ObjectHideFlags: 0
@@ -3892,6 +4399,7 @@ GameObject:
   m_Component:
   - component: {fileID: 970776232}
   - component: {fileID: 970776231}
+  - component: {fileID: 970776233}
   m_Layer: 0
   m_Name: PawnWhite (5)
   m_TagString: Untagged
@@ -3966,6 +4474,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &970776233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 970776230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c23385e3dcd6b64cbf8b8f527e2a031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &992335422
 GameObject:
   m_ObjectHideFlags: 0
@@ -3976,6 +4496,7 @@ GameObject:
   m_Component:
   - component: {fileID: 992335423}
   - component: {fileID: 992335424}
+  - component: {fileID: 992335425}
   m_Layer: 0
   m_Name: BlackCell (15)
   m_TagString: Untagged
@@ -4050,6 +4571,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &992335425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 992335422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1001122907
 GameObject:
   m_ObjectHideFlags: 0
@@ -4060,6 +4593,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1001122908}
   - component: {fileID: 1001122909}
+  - component: {fileID: 1001122910}
   m_Layer: 0
   m_Name: BlackCell (12)
   m_TagString: Untagged
@@ -4134,6 +4668,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1001122910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1001122907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1006412407
 GameObject:
   m_ObjectHideFlags: 0
@@ -4144,6 +4690,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1006412409}
   - component: {fileID: 1006412408}
+  - component: {fileID: 1006412410}
   m_Layer: 0
   m_Name: PawnBlack (7)
   m_TagString: Untagged
@@ -4218,6 +4765,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1006412410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006412407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c23385e3dcd6b64cbf8b8f527e2a031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1040633170
 GameObject:
   m_ObjectHideFlags: 0
@@ -4228,6 +4787,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1040633172}
   - component: {fileID: 1040633171}
+  - component: {fileID: 1040633173}
   m_Layer: 0
   m_Name: PawnBlack (1)
   m_TagString: Untagged
@@ -4302,6 +4862,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1040633173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1040633170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c23385e3dcd6b64cbf8b8f527e2a031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1042338120
 GameObject:
   m_ObjectHideFlags: 0
@@ -4312,6 +4884,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1042338121}
   - component: {fileID: 1042338122}
+  - component: {fileID: 1042338123}
   m_Layer: 0
   m_Name: BlackCell (28)
   m_TagString: Untagged
@@ -4386,6 +4959,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1042338123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1042338120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1054705958
 GameObject:
   m_ObjectHideFlags: 0
@@ -4396,6 +4981,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1054705960}
   - component: {fileID: 1054705959}
+  - component: {fileID: 1054705961}
   m_Layer: 0
   m_Name: PawnWhite (7)
   m_TagString: Untagged
@@ -4470,6 +5056,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1054705961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1054705958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c23385e3dcd6b64cbf8b8f527e2a031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1101284445
 GameObject:
   m_ObjectHideFlags: 0
@@ -4480,6 +5078,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1101284446}
   - component: {fileID: 1101284447}
+  - component: {fileID: 1101284448}
   m_Layer: 0
   m_Name: BlackCell (8)
   m_TagString: Untagged
@@ -4554,6 +5153,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1101284448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1101284445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1169634978
 GameObject:
   m_ObjectHideFlags: 0
@@ -4564,6 +5175,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1169634979}
   - component: {fileID: 1169634980}
+  - component: {fileID: 1169634981}
   m_Layer: 0
   m_Name: BlackCell (6)
   m_TagString: Untagged
@@ -4638,6 +5250,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1169634981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1169634978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1178169789
 GameObject:
   m_ObjectHideFlags: 0
@@ -4648,6 +5272,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1178169791}
   - component: {fileID: 1178169790}
+  - component: {fileID: 1178169792}
   m_Layer: 0
   m_Name: PawnWhite (3)
   m_TagString: Untagged
@@ -4722,6 +5347,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1178169792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1178169789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c23385e3dcd6b64cbf8b8f527e2a031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1221157364
 GameObject:
   m_ObjectHideFlags: 0
@@ -4732,6 +5369,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1221157365}
   - component: {fileID: 1221157366}
+  - component: {fileID: 1221157367}
   m_Layer: 0
   m_Name: BlackCell (23)
   m_TagString: Untagged
@@ -4806,6 +5444,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1221157367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1221157364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1231134149
 GameObject:
   m_ObjectHideFlags: 0
@@ -4816,6 +5466,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1231134150}
   - component: {fileID: 1231134151}
+  - component: {fileID: 1231134152}
   m_Layer: 0
   m_Name: WhiteCell (24)
   m_TagString: Untagged
@@ -4890,6 +5541,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1231134152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1231134149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1240727056
 GameObject:
   m_ObjectHideFlags: 0
@@ -4900,6 +5563,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1240727057}
   - component: {fileID: 1240727058}
+  - component: {fileID: 1240727059}
   m_Layer: 0
   m_Name: WhiteCell (29)
   m_TagString: Untagged
@@ -4974,6 +5638,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1240727059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1240727056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1253552756
 GameObject:
   m_ObjectHideFlags: 0
@@ -4984,6 +5660,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1253552757}
   - component: {fileID: 1253552758}
+  - component: {fileID: 1253552759}
   m_Layer: 0
   m_Name: BlackCell (30)
   m_TagString: Untagged
@@ -5058,6 +5735,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1253552759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1253552756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1257520851
 GameObject:
   m_ObjectHideFlags: 0
@@ -5068,6 +5757,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1257520852}
   - component: {fileID: 1257520853}
+  - component: {fileID: 1257520854}
   m_Layer: 0
   m_Name: BlackCell (9)
   m_TagString: Untagged
@@ -5142,6 +5832,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1257520854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1257520851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1318307808
 GameObject:
   m_ObjectHideFlags: 0
@@ -5152,6 +5854,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1318307809}
   - component: {fileID: 1318307810}
+  - component: {fileID: 1318307811}
   m_Layer: 0
   m_Name: BlackCell (13)
   m_TagString: Untagged
@@ -5226,6 +5929,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1318307811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318307808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1395445962
 GameObject:
   m_ObjectHideFlags: 0
@@ -5236,6 +5951,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1395445963}
   - component: {fileID: 1395445964}
+  - component: {fileID: 1395445965}
   m_Layer: 0
   m_Name: BlackCell (20)
   m_TagString: Untagged
@@ -5310,6 +6026,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1395445965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1395445962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1400990624
 GameObject:
   m_ObjectHideFlags: 0
@@ -5320,6 +6048,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1400990626}
   - component: {fileID: 1400990625}
+  - component: {fileID: 1400990627}
   m_Layer: 0
   m_Name: PawnBlack (2)
   m_TagString: Untagged
@@ -5394,6 +6123,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1400990627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1400990624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c23385e3dcd6b64cbf8b8f527e2a031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1415433611
 GameObject:
   m_ObjectHideFlags: 0
@@ -5404,6 +6145,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1415433612}
   - component: {fileID: 1415433613}
+  - component: {fileID: 1415433614}
   m_Layer: 0
   m_Name: WhiteCell (30)
   m_TagString: Untagged
@@ -5478,6 +6220,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1415433614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1415433611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1421428712
 GameObject:
   m_ObjectHideFlags: 0
@@ -5488,6 +6242,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1421428713}
   - component: {fileID: 1421428714}
+  - component: {fileID: 1421428715}
   m_Layer: 0
   m_Name: BlackCell (14)
   m_TagString: Untagged
@@ -5562,6 +6317,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1421428715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1421428712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1428913955
 GameObject:
   m_ObjectHideFlags: 0
@@ -5572,6 +6339,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1428913957}
   - component: {fileID: 1428913956}
+  - component: {fileID: 1428913958}
   m_Layer: 0
   m_Name: RookWhite (1)
   m_TagString: Untagged
@@ -5646,6 +6414,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1428913958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1428913955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c23385e3dcd6b64cbf8b8f527e2a031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1435204537
 GameObject:
   m_ObjectHideFlags: 0
@@ -5656,6 +6436,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1435204538}
   - component: {fileID: 1435204539}
+  - component: {fileID: 1435204540}
   m_Layer: 0
   m_Name: WhiteCell (5)
   m_TagString: Untagged
@@ -5730,6 +6511,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1435204540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1435204537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1441117624
 GameObject:
   m_ObjectHideFlags: 0
@@ -5740,6 +6533,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1441117626}
   - component: {fileID: 1441117625}
+  - component: {fileID: 1441117627}
   m_Layer: 0
   m_Name: KnightWhite
   m_TagString: Untagged
@@ -5814,6 +6608,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1441117627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1441117624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c23385e3dcd6b64cbf8b8f527e2a031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1469999831
 GameObject:
   m_ObjectHideFlags: 0
@@ -5824,6 +6630,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1469999833}
   - component: {fileID: 1469999832}
+  - component: {fileID: 1469999834}
   m_Layer: 0
   m_Name: QueenBlack
   m_TagString: Untagged
@@ -5898,6 +6705,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1469999834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469999831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c23385e3dcd6b64cbf8b8f527e2a031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1527938714
 GameObject:
   m_ObjectHideFlags: 0
@@ -5908,6 +6727,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1527938715}
   - component: {fileID: 1527938716}
+  - component: {fileID: 1527938717}
   m_Layer: 0
   m_Name: WhiteCell (14)
   m_TagString: Untagged
@@ -5982,6 +6802,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1527938717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527938714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1528506847
 GameObject:
   m_ObjectHideFlags: 0
@@ -5992,6 +6824,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1528506849}
   - component: {fileID: 1528506848}
+  - component: {fileID: 1528506850}
   m_Layer: 0
   m_Name: PawnWhite (1)
   m_TagString: Untagged
@@ -6066,6 +6899,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1528506850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528506847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c23385e3dcd6b64cbf8b8f527e2a031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1562582955
 GameObject:
   m_ObjectHideFlags: 0
@@ -6076,6 +6921,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1562582956}
   - component: {fileID: 1562582957}
+  - component: {fileID: 1562582958}
   m_Layer: 0
   m_Name: WhiteCell (2)
   m_TagString: Untagged
@@ -6150,6 +6996,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1562582958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1562582955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1585170089
 GameObject:
   m_ObjectHideFlags: 0
@@ -6160,6 +7018,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1585170091}
   - component: {fileID: 1585170090}
+  - component: {fileID: 1585170092}
   m_Layer: 0
   m_Name: BishopWhite (1)
   m_TagString: Untagged
@@ -6205,8 +7064,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 355121427
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: a26566b656c3cdc40884da25b9c48d33, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6234,6 +7093,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1585170092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585170089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c23385e3dcd6b64cbf8b8f527e2a031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1593957904
 GameObject:
   m_ObjectHideFlags: 0
@@ -6244,6 +7115,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1593957905}
   - component: {fileID: 1593957906}
+  - component: {fileID: 1593957907}
   m_Layer: 0
   m_Name: WhiteCell (19)
   m_TagString: Untagged
@@ -6318,6 +7190,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1593957907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1593957904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1634482189
 GameObject:
   m_ObjectHideFlags: 0
@@ -6328,6 +7212,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1634482190}
   - component: {fileID: 1634482191}
+  - component: {fileID: 1634482192}
   m_Layer: 0
   m_Name: WhiteCell
   m_TagString: Untagged
@@ -6402,6 +7287,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1634482192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1634482189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1660275492
 GameObject:
   m_ObjectHideFlags: 0
@@ -6412,6 +7309,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1660275493}
   - component: {fileID: 1660275494}
+  - component: {fileID: 1660275495}
   m_Layer: 0
   m_Name: WhiteCell (25)
   m_TagString: Untagged
@@ -6486,6 +7384,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1660275495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1660275492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1672192405
 GameObject:
   m_ObjectHideFlags: 0
@@ -6496,6 +7406,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1672192406}
   - component: {fileID: 1672192407}
+  - component: {fileID: 1672192408}
   m_Layer: 0
   m_Name: BlackCell (5)
   m_TagString: Untagged
@@ -6570,6 +7481,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1672192408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1672192405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1720957047
 GameObject:
   m_ObjectHideFlags: 0
@@ -6580,6 +7503,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1720957048}
   - component: {fileID: 1720957049}
+  - component: {fileID: 1720957050}
   m_Layer: 0
   m_Name: BlackCell (31)
   m_TagString: Untagged
@@ -6654,6 +7578,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1720957050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1720957047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1721438225
 GameObject:
   m_ObjectHideFlags: 0
@@ -6664,6 +7600,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1721438226}
   - component: {fileID: 1721438227}
+  - component: {fileID: 1721438228}
   m_Layer: 0
   m_Name: BlackCell (22)
   m_TagString: Untagged
@@ -6738,6 +7675,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1721438228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1721438225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1769883926
 GameObject:
   m_ObjectHideFlags: 0
@@ -6748,6 +7697,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1769883928}
   - component: {fileID: 1769883927}
+  - component: {fileID: 1769883929}
   m_Layer: 0
   m_Name: PawnBlack (3)
   m_TagString: Untagged
@@ -6822,6 +7772,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1769883929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1769883926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c23385e3dcd6b64cbf8b8f527e2a031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1771970895
 GameObject:
   m_ObjectHideFlags: 0
@@ -6832,6 +7794,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1771970896}
   - component: {fileID: 1771970897}
+  - component: {fileID: 1771970898}
   m_Layer: 0
   m_Name: WhiteCell (17)
   m_TagString: Untagged
@@ -6906,6 +7869,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1771970898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771970895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1788805050
 GameObject:
   m_ObjectHideFlags: 0
@@ -6916,6 +7891,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1788805051}
   - component: {fileID: 1788805052}
+  - component: {fileID: 1788805053}
   m_Layer: 0
   m_Name: BlackCell (18)
   m_TagString: Untagged
@@ -6990,6 +7966,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1788805053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788805050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1829330658
 GameObject:
   m_ObjectHideFlags: 0
@@ -7000,6 +7988,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1829330659}
   - component: {fileID: 1829330660}
+  - component: {fileID: 1829330661}
   m_Layer: 0
   m_Name: WhiteCell (21)
   m_TagString: Untagged
@@ -7074,6 +8063,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1829330661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1829330658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1878702815
 GameObject:
   m_ObjectHideFlags: 0
@@ -7084,6 +8085,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1878702817}
   - component: {fileID: 1878702816}
+  - component: {fileID: 1878702818}
   m_Layer: 0
   m_Name: BishopBlack (1)
   m_TagString: Untagged
@@ -7151,13 +8153,25 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1878702815}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4, y: 7, z: 0}
+  m_LocalPosition: {x: 5, y: 7, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1878702818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1878702815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c23385e3dcd6b64cbf8b8f527e2a031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1882812204
 GameObject:
   m_ObjectHideFlags: 0
@@ -7168,6 +8182,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1882812205}
   - component: {fileID: 1882812206}
+  - component: {fileID: 1882812207}
   m_Layer: 0
   m_Name: WhiteCell (8)
   m_TagString: Untagged
@@ -7242,6 +8257,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1882812207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1882812204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1892018226
 GameObject:
   m_ObjectHideFlags: 0
@@ -7252,6 +8279,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1892018228}
   - component: {fileID: 1892018227}
+  - component: {fileID: 1892018229}
   m_Layer: 0
   m_Name: PawnBlack
   m_TagString: Untagged
@@ -7326,6 +8354,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1892018229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1892018226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c23385e3dcd6b64cbf8b8f527e2a031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1938137882
 GameObject:
   m_ObjectHideFlags: 0
@@ -7336,6 +8376,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1938137883}
   - component: {fileID: 1938137884}
+  - component: {fileID: 1938137885}
   m_Layer: 0
   m_Name: WhiteCell (12)
   m_TagString: Untagged
@@ -7410,6 +8451,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1938137885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1938137882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1951890362
 GameObject:
   m_ObjectHideFlags: 0
@@ -7420,6 +8473,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1951890364}
   - component: {fileID: 1951890363}
+  - component: {fileID: 1951890365}
   m_Layer: 0
   m_Name: KingBlack
   m_TagString: Untagged
@@ -7487,13 +8541,25 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1951890362}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5, y: 7, z: 0}
+  m_LocalPosition: {x: 4, y: 7, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1951890365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1951890362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c23385e3dcd6b64cbf8b8f527e2a031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1952473321
 GameObject:
   m_ObjectHideFlags: 0
@@ -7504,6 +8570,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1952473322}
   - component: {fileID: 1952473323}
+  - component: {fileID: 1952473324}
   m_Layer: 0
   m_Name: BlackCell (16)
   m_TagString: Untagged
@@ -7578,6 +8645,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1952473324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1952473321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1956437654
 GameObject:
   m_ObjectHideFlags: 0
@@ -7588,6 +8667,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1956437655}
   - component: {fileID: 1956437656}
+  - component: {fileID: 1956437657}
   m_Layer: 0
   m_Name: BlackCell (1)
   m_TagString: Untagged
@@ -7662,6 +8742,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1956437657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1956437654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1995374267
 GameObject:
   m_ObjectHideFlags: 0
@@ -7672,6 +8764,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1995374269}
   - component: {fileID: 1995374268}
+  - component: {fileID: 1995374270}
   m_Layer: 0
   m_Name: KingWhite
   m_TagString: Untagged
@@ -7746,6 +8839,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1995374270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1995374267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c23385e3dcd6b64cbf8b8f527e2a031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2006910834
 GameObject:
   m_ObjectHideFlags: 0
@@ -7756,6 +8861,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2006910835}
   - component: {fileID: 2006910836}
+  - component: {fileID: 2006910837}
   m_Layer: 0
   m_Name: WhiteCell (16)
   m_TagString: Untagged
@@ -7830,6 +8936,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2006910837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2006910834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2027446695
 GameObject:
   m_ObjectHideFlags: 0
@@ -7840,6 +8958,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2027446696}
   - component: {fileID: 2027446697}
+  - component: {fileID: 2027446698}
   m_Layer: 0
   m_Name: BlackCell (19)
   m_TagString: Untagged
@@ -7914,6 +9033,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2027446698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027446695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2031173249
 GameObject:
   m_ObjectHideFlags: 0
@@ -7924,6 +9055,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2031173250}
   - component: {fileID: 2031173251}
+  - component: {fileID: 2031173252}
   m_Layer: 0
   m_Name: BlackCell (10)
   m_TagString: Untagged
@@ -7998,6 +9130,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2031173252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2031173249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2044860603
 GameObject:
   m_ObjectHideFlags: 0
@@ -8008,6 +9152,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2044860604}
   - component: {fileID: 2044860605}
+  - component: {fileID: 2044860606}
   m_Layer: 0
   m_Name: WhiteCell (20)
   m_TagString: Untagged
@@ -8082,6 +9227,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2044860606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2044860603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2064598225
 GameObject:
   m_ObjectHideFlags: 0
@@ -8092,6 +9249,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2064598226}
   - component: {fileID: 2064598227}
+  - component: {fileID: 2064598228}
   m_Layer: 0
   m_Name: BlackCell (25)
   m_TagString: Untagged
@@ -8166,6 +9324,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2064598228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2064598225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2075937767
 GameObject:
   m_ObjectHideFlags: 0
@@ -8176,6 +9346,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2075937768}
   - component: {fileID: 2075937769}
+  - component: {fileID: 2075937770}
   m_Layer: 0
   m_Name: WhiteCell (27)
   m_TagString: Untagged
@@ -8250,6 +9421,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2075937770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2075937767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2118934839
 GameObject:
   m_ObjectHideFlags: 0
@@ -8260,6 +9443,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2118934840}
   - component: {fileID: 2118934841}
+  - component: {fileID: 2118934842}
   m_Layer: 0
   m_Name: WhiteCell (6)
   m_TagString: Untagged
@@ -8334,6 +9518,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2118934842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2118934839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2125876511
 GameObject:
   m_ObjectHideFlags: 0
@@ -8344,6 +9540,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2125876512}
   - component: {fileID: 2125876513}
+  - component: {fileID: 2125876514}
   m_Layer: 0
   m_Name: BlackCell (27)
   m_TagString: Untagged
@@ -8418,3 +9615,15 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2125876514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2125876511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8519317ff205dc441862c87d415d1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

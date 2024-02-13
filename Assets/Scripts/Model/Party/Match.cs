@@ -2,9 +2,10 @@ using UnityEngine;
 
 public sealed class Match
 {
-    public Figure _selectedFigure { get; private set; }
     private ChessBoard _board;
     private Player _currentPlayer;
+
+    public Figure _selectedFigure { get; private set; }
 
     public Match()
     {

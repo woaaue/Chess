@@ -2,8 +2,9 @@ using UnityEngine;
 
 public class ChessBoard
 {
+
     private int _boardSize;
-    private Cell[,] _cells;
+    public Cell[,] Cells { get; private set; }
 
     public ChessBoard()
     {
@@ -14,13 +15,13 @@ public class ChessBoard
 
     private void InitializeBoard()
     {
-        _cells = new Cell[_boardSize, _boardSize];
+        Cells = new Cell[_boardSize, _boardSize];
 
         for (int x = 0; x < _boardSize; x++)
         {
             for (int y = 0; y < _boardSize; y++)
             {
-                _cells[x, y] = new Cell(x, y);
+                Cells[x, y] = new Cell(x, y);
             }
         }
     }
@@ -58,7 +59,7 @@ public class ChessBoard
     {
         if (BoardUtils.IsValidPosition(x, y, _boardSize))
         {
-            return _cells[x, y];
+            return Cells[x, y];
         }
         else
         {
