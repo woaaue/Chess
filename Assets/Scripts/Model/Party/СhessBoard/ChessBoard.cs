@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class ChessBoard
 {
-
     private int _boardSize;
     public Cell[,] Cells { get; private set; }
 
