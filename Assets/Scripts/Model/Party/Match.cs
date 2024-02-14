@@ -5,8 +5,9 @@ public sealed class Match
 {
     private ChessBoard _board;
     private Player _currentPlayer;
-    public Figure _selectedFigure { get; private set; }
     public static event Action OnPlayerChanged;
+    public static event Action<Player> OnKingDied;
+    public Figure _selectedFigure { get; private set; }
 
     public Match()
     {
@@ -60,7 +61,38 @@ public sealed class Match
     {
         figure.Move(targetCell, _board);
         _selectedFigure = null;
-        OnPlayerChanged.Invoke();
+        OnKingDied?.Invoke(CheckKings(_board));
+        OnPlayerChanged?.Invoke();
+    }
+
+    private Player CheckKings(ChessBoard board)
+    {
+        Figure kingWhite = null;
+        Figure kingBlack = null;
+
+        foreach (Cell cell in board.Cells)
+        {
+            if (!cell.IsEmpty)
+            {
+                if (cell.Figure.Type == FigureType.King && cell.Figure.Color == Color.white)
+                {
+                    kingWhite = cell.Figure;
+                }
+
+                if (cell.Figure.Type == FigureType.King && cell.Figure.Color == Color.black)
+                {
+                    kingBlack = cell.Figure;
+                }
+            }
+        }
+
+        if (kingWhite == null)
+            return Player.Black;
+        if (kingBlack == null)
+            return Player.White;
+        else
+            return Player.Draw;
+
     }
 
     private bool IsPlayerPiece(Figure figure, Player player)
