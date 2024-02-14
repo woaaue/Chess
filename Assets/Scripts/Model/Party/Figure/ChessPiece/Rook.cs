@@ -26,7 +26,7 @@ public sealed class Rook : Figure
             {
                 Cell nextCell = chessBoard.GetCell(CurrentCell.X, CurrentCell.Y + i * directionY);
 
-                if (targetCell.Y == nextCell.Y && chessBoard.GetFigure(nextCell).Color != Color)
+                if ((targetCell.IsEmpty || chessBoard.GetFigure(targetCell).Color != Color) && targetCell.Y == nextCell.Y)
                 {
                     return true;
                 }
@@ -46,7 +46,7 @@ public sealed class Rook : Figure
             {
                 Cell nextCell = chessBoard.GetCell(CurrentCell.X + i * directionX, CurrentCell.Y);
 
-                if (targetCell.X == nextCell.X && chessBoard.GetFigure(nextCell).Color != Color)
+                if ((targetCell.IsEmpty || chessBoard.GetFigure(targetCell).Color != Color) && targetCell.X == nextCell.X)
                 {
                     return true;
                 }

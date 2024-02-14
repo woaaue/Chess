@@ -1,11 +1,12 @@
+using System;
 using UnityEngine;
 
 public sealed class Match
 {
     private ChessBoard _board;
     private Player _currentPlayer;
-
     public Figure _selectedFigure { get; private set; }
+    public static event Action OnPlayerChanged;
 
     public Match()
     {
@@ -57,10 +58,9 @@ public sealed class Match
 
     public void ManipulationFigure(Figure figure, Cell targetCell)
     {
-        Debug.Log($"Данные до хода - Фигура: {figure.Type}, Цвет: {figure.Color}, Положение на доске: {figure.CurrentCell.X},{figure.CurrentCell.Y}");
         figure.Move(targetCell, _board);
-        Debug.Log($"Данные после хода - Фигура: {figure.Type}, Цвет: {figure.Color}, Положение на доске: {figure.CurrentCell.X},{figure.CurrentCell.Y}");
         _selectedFigure = null;
+        OnPlayerChanged.Invoke();
     }
 
     private bool IsPlayerPiece(Figure figure, Player player)

@@ -29,8 +29,13 @@ public sealed class Bishop : Figure
         for(int i = 1; i < Mathf.Abs(deltaX); i++)
         {
             Cell nextCell = chessBoard.GetCell(CurrentCell.X + i * directionX, CurrentCell.Y + i * directionY);
-            
-            if(!nextCell.IsEmpty)
+
+            if (targetCell.X == nextCell.X && targetCell.Y == nextCell.Y && chessBoard.GetFigure(targetCell).Color != Color)
+            {
+                return true;
+            }
+
+            if (!nextCell.IsEmpty)
             {
                 return false;
             }
