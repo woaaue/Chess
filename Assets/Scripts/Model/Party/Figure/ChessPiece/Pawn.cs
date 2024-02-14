@@ -36,6 +36,7 @@ public sealed class Pawn : Figure
                 }
                 else if (targetCell.X == CurrentCell.X && targetCell.Y == CurrentCell.Y + defaultMove)
                 {
+                    _isFirstMove = false;
                     return true;
                 }
             }
